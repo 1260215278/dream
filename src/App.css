@@ -20,3 +20,11 @@
 .App-link {
   color: #09d3ac;
 }
+
+.content {
+  margin-top: 200px;
+  width: 0px;
+  height: 0px;
+  border: 20px solid;
+  border-color:#ff9600 transparent  transparent  transparent ;
+}
