@@ -10,4 +10,5 @@ function conson(){
             console.log('%c%s', `padding: 2px 4px; width:300px;   text-align: center; background: ${color};color: white;border-radius: 5px;`, str);
     },1000)
 }
+
 module.exports= conson

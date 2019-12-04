@@ -27,4 +27,23 @@
   height: 0px;
   border: 20px solid;
   border-color:#ff9600 transparent  transparent  transparent ;
+  animation: myfrom .3s  infinite   ;
+  animation-direction: normal;
+  transform: all .1s;
+}
+
+@keyframes myfrom{
+   25%{
+    
+    border-color:#ff9600 transparent  transparent  transparent ;
+   }
+   50%{
+    border-color: transparent #ff9600 transparent  transparent ;
+   }
+   75%{
+    border-color: transparent  transparent  #ff9600 transparent ;
+   }
+   100%{
+    border-color: transparent  transparent  transparent #ff9600 ;
+   }
 }

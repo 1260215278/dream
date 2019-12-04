@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 // import conson from './utils/conson'
+import newJS from './utils/newJS'
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,7 @@ class Triangle extends React.Component{
   }
 }
 
+
 class Botton extends React.Component{
   constructor(props){
       super(props)
@@ -50,6 +52,8 @@ class Botton extends React.Component{
 
   render(){
     // conson()
+    var newjs =new newJS('参数')
+    newjs.setConif()
     return (
       <button  onClick={()=>this._click()}>我是一个{this.state.name}</button>
     )
